@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul, ol,li{
+    list-style: none;
+    
+}
+a{
+    text-decoration: none;
+    font-family: inherit;
+    color: inherit;
+}
+
+body{
+    background-image: url(./img/pizza_back\ 1.png);
+    background-repeat: no-repeat;
+    overflow: hidden;
+    z-index: 0;
+
+}
+
+.laranja{
+    width:360px;
+    height:740px;
+    flex-shrink:0;
+    background:linear-gradient(180deg, rgba(252, 121, 0, 0.85) 47.4%, rgba(252, 121, 0, 0.00) 100%);
+    z-index: 1;
+    position: absolute;
+}
+.conteudo{
+    z-index: 2;
+    position: absolute;
+}
+
+
+
